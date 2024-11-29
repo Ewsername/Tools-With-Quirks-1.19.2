@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "P": {
+      "item": "minecraft:birch_planks"
+    },
+    "S": {
+      "item": "minecraft:birch_slab"
+    },
+    "X": {
+      "item": "tools-with-quirks:wooden_handle"
+    }
+  },
+  "pattern": [
+    " P ",
+    "SP ",
+    " X "
+  ],
+  "result": {
+    "item": "tools-with-quirks:wooden_birch_axe"
+  }
+}

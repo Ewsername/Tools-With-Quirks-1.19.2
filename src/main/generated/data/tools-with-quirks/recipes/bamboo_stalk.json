@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tools-with-quirks:bamboo_bundle"
+    },
+    {
+      "item": "tools-with-quirks:bamboo_shank"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "tools-with-quirks:bamboo_stalk"
+  }
+}

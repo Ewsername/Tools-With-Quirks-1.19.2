@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "item": "minecraft:jungle_slab"
+    },
+    "X": {
+      "item": "tools-with-quirks:wooden_handle"
+    }
+  },
+  "pattern": [
+    "S  ",
+    " X "
+  ],
+  "result": {
+    "item": "tools-with-quirks:wooden_jungle_shovel"
+  }
+}

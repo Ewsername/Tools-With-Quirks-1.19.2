@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "item": "minecraft:bamboo"
+    },
+    "Z": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "BZB",
+    "BBB"
+  ],
+  "result": {
+    "item": "tools-with-quirks:bamboo_bundle"
+  }
+}

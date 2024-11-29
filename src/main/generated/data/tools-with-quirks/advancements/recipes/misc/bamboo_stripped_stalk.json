@@ -1,0 +1,47 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bamboo_shank": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tools-with-quirks:bamboo_shank"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_bamboo_stalk": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tools-with-quirks:bamboo_stalk"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:bamboo_stripped_stalk"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_bamboo_stalk",
+      "has_bamboo_shank",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:bamboo_stripped_stalk"
+    ]
+  }
+}

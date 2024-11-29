@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "R": {
+      "item": "tools-with-quirks:bamboo_stalk"
+    },
+    "X": {
+      "item": "tools-with-quirks:bamboo_stripped_stalk"
+    }
+  },
+  "pattern": [
+    " X ",
+    " R ",
+    " R "
+  ],
+  "result": {
+    "item": "tools-with-quirks:bamboo_stalk_sword"
+  }
+}

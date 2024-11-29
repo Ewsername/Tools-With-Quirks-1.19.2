@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "item": "minecraft:mangrove_slab"
+    },
+    "X": {
+      "item": "tools-with-quirks:wooden_handle"
+    }
+  },
+  "pattern": [
+    "S  ",
+    " X "
+  ],
+  "result": {
+    "item": "tools-with-quirks:wooden_mangrove_shovel"
+  }
+}

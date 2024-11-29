@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "P": {
+      "item": "minecraft:dark_oak_planks"
+    },
+    "X": {
+      "item": "tools-with-quirks:wooden_handle"
+    }
+  },
+  "pattern": [
+    "P  ",
+    " X "
+  ],
+  "result": {
+    "item": "tools-with-quirks:wooden_dark_oak_sword"
+  }
+}
