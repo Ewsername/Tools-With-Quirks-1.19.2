@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "tools-with-quirks:item/wooden_mangrove_axe"
+  }
+}
