@@ -66,5 +66,8 @@
   "item.tools-with-quirks.wooden_warped_shovel": "Wooden Warped Shovel",
   "item.tools-with-quirks.wooden_warped_sword": "Wooden Warped Sword",
 
-  "item.tools-with-quirks.menacing_worm": "Menacing Worm"
+  "item.tools-with-quirks.menacing_worm": "Menacing Worm",
+  "item.tools-with-quirks.slime_in_a_bucket": "Slime In A Bucket",
+
+  "block.tools-with-quirks.slime_block_entity": "Slime Block Entity"
 }

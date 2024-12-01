@@ -8,13 +8,20 @@ import net.minecraft.util.registry.Registry;
 public class ModItems {
 
 
-    //MISC ITEMS
+    //SLIME BUCKET STATS
+    public static final Item SLIME_IN_A_BUCKET = new SlimeBucketItem(new Item.Settings().group(ItemGroup.MISC).maxCount(1));
 
+    //SLIME BUCKET LOGIC
+    public static void registerItem() {
+        Registry.register(Registry.ITEM, new Identifier("tools-with-quirks", "slime_in_a_bucket"), SLIME_IN_A_BUCKET);
+    }
+
+    //BAMBOO ITEMS
     public static final Item BAMBOO_BUNDLE = registerItem("bamboo_bundle" );
     public static final Item BAMBOO_STALK = registerItem("bamboo_stalk" );
     public static final Item BAMBOO_STRIPPED_STALK = registerItem("bamboo_stripped_stalk" );
 
-    //MENACING WORM - What is this!?
+    //MISC ITEMS
     public static final Item MENACING_WORM = registerItem("menacing_worm" );
 
     //MISC ITEMS LOGIC
